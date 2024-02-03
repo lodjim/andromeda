@@ -10,15 +10,13 @@ To use Andromeda in your Go project, you can simply use the `go get` command:
 go get -u github.com/lodjim/andromeda
 ```
 
-Make sure to replace `yourusername` with your GitHub username.
-
 ## Example Usage
 
-Here's an example of using Andromeda to perform K-means clustering on a dataset:
+Here is an example of using Andromeda to perform K-means clustering on a dataset:
 
 ```go
-package main
 
+package main
 import (
 	"fmt"
 	"os"
